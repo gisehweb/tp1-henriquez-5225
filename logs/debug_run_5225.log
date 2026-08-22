@@ -1,0 +1,26 @@
++ '[' 2 -ne 2 ']'
++ A=5225
++ B=1302
++ for arg in $A $B
++ [[ 5225 =~ ^-?[0-9]+$ ]]
++ for arg in $A $B
++ [[ 1302 =~ ^-?[0-9]+$ ]]
++ SUMA=6527
++ RESTA=3923
++ MULT=6802950
++ '[' 1302 -ne 0 ']'
++ DIV=4
++ MOD=17
++ '[' 5225 -eq 1302 ']'
++ '[' 5225 -gt 1302 ']'
++ COMP='5225 es mayor que 1302'
++ LOG=../logs/comparador_5225.log
++ echo '| Operación   | Expresión | Resultado |'
++ echo '| :---        | :---      | :---      |'
++ echo '| Suma        | 5225 + 1302   | 6527     |'
++ echo '| Resta       | 5225 - 1302   | 3923    |'
++ echo '| Multiplic.  | 5225 * 1302   | 6802950     |'
++ echo '| División    | 5225 / 1302   | 4      |'
++ echo '| Módulo      | 5225 % 1302   | 17      |'
++ echo '| Comparación |           | 5225 es mayor que 1302     |'
++ tee ../logs/comparador_5225.log
