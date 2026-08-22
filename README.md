@@ -11,11 +11,13 @@
 ### 1. entorno.sh
 - Muestra versión de Bash, contenido de `$PATH` y Token de Autenticidad.
 - Genera salida en `logs/entorno_5225.txt`.
+<img width="1004" height="436" alt="image" src="https://github.com/user-attachments/assets/fef72cfe-017b-469a-a0f2-014a8893eedf" />
 
 ### 2. diagnostico.sh
 - Recibe un nombre como argumento.
 - Muestra bienvenida, fecha/hora, uptime, uso de `/`, espacio en `/home`, usuarios conectados e IP local.
 - Genera salida en `logs/diagnostico_5225.log`.
+<img width="1004" height="749" alt="image" src="https://github.com/user-attachments/assets/1f970f44-e8a1-4a69-8007-27ef84a01fbb" />
 
 ### 3. comparador.sh
 - Recibe exactamente dos enteros como argumentos.
@@ -24,6 +26,7 @@
 - Compara los números e indica si son iguales o cuál es mayor.
 - Imprime resultados en formato de tabla Markdown.
 - Genera salida en `logs/comparador_5225.log`.
+<img width="1004" height="684" alt="image" src="https://github.com/user-attachments/assets/a2ccb299-f6cb-405f-a3b9-7395fdcf6ad5" />
 
 ##  Ejecución
 Ejemplos:
