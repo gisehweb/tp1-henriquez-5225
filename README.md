@@ -26,6 +26,9 @@
 - Compara los números e indica si son iguales o cuál es mayor.
 - Imprime resultados en formato de tabla Markdown.
 - Genera salida en `logs/comparador_5225.log`.
+<img width="823" height="587" alt="image" src="https://github.com/user-attachments/assets/c168ef26-6567-41ff-9c56-bd9ca366b74c" />
+
+### 4. comparador.sh en modo debug con mi legajo y los últimos 4 dígitos de mi DNI:
 <img width="1004" height="684" alt="image" src="https://github.com/user-attachments/assets/a2ccb299-f6cb-405f-a3b9-7395fdcf6ad5" />
 
 ##  Ejecución
