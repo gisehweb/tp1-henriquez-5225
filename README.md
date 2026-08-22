@@ -2,11 +2,11 @@
 **Alumno:** Gisella Henriquez  
 **Legajo:** 5225  
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 - `codigo/` → scripts en Bash
 - `logs/` → salidas generadas por los scripts
 
-## 📝 Scripts
+##  Scripts
 
 ### 1. entorno.sh
 - Muestra versión de Bash, contenido de `$PATH` y Token de Autenticidad.
@@ -25,7 +25,7 @@
 - Imprime resultados en formato de tabla Markdown.
 - Genera salida en `logs/comparador_5225.log`.
 
-## ▶️ Ejecución
+##  Ejecución
 Ejemplos:
 ```bash
 ./codigo/entorno.sh
