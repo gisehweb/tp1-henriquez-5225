@@ -6,6 +6,16 @@
 - `codigo/` → scripts en Bash
 - `logs/` → salidas generadas por los scripts
 
+Tarea 1: Inspección de Entorno Personalizado
+Para comenzar el trabajo se verificó el intérprete de comandos en uso y las opciones disponibles en el sistema.
+
+El comando echo $SHELL confirmó que la shell activa es Bash, ubicada en /bin/bash.
+
+Con bash --version se comprobó que la versión instalada corresponde a GNU Bash 5.2.21.
+
+Finalmente, mediante cat /etc/shells se listaron las shells válidas en el sistema, entre ellas /bin/sh, /bin/bash, /bin/rbash y /bin/dash.
+<img width="681" height="208" alt="image" src="https://github.com/user-attachments/assets/ca85a96c-0a82-448a-8939-4dcdfee49adf" />
+
 ##  Scripts
 
 ### 1. entorno.sh
