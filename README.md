@@ -2,7 +2,7 @@
 ##Tecnicatura Superior en Administración de Sistemas y Software Libre
 # Trabajo práctico 1: Revisión de conceptos y scripts básicos
 - **Materia** Automatización y Scripting
-- **Profesores** Ramiro Poggi, Fabian Imberti
+- **Profesores** Ramiro Poggi, Lucas Linquimán
 - **Alumno:** Gisella Henriquez  
 - **Legajo:** 5225  
 
