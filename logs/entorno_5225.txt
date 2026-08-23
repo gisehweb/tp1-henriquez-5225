@@ -1,0 +1,7 @@
+Versión de Bash:
+GNU bash, versión 4.4.20(1)-release (x86_64-pc-linux-gnu)
+
+Contenido de PATH:
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Token de Autenticidad: 5225-1302

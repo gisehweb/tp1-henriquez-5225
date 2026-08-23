@@ -1,0 +1,8 @@
+| Operación   | Expresión | Resultado |
+| :---        | :---      | :---      |
+| Suma        | 10 + 20   | 30     |
+| Resta       | 10 - 20   | -10    |
+| Multiplic.  | 10 * 20   | 200     |
+| División    | 10 / 20   | 0      |
+| Módulo      | 10 % 20   | 10      |
+| Comparación |           | 20 es mayor que 10     |

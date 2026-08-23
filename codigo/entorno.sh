@@ -1,28 +1,31 @@
 #!/bin/bash
 
-# entorno.sh - TP1 Henríquez 5225
+# entorno.sh - Inspección de entorno personalizado
+# Alumno: Gisella Henriquez
+# Legajo: 5225
+# DNI: 35591302
 
-# Versión actual de Bash
+# 1. Versión de Bash
 echo "Versión de Bash:"
 bash --version | head -n 1
 
-# Contenido de PATH
-echo "Contenido de PATH:"
+# 2. Contenido de PATH
+echo -e "\nContenido de PATH:"
 echo $PATH
 
-# Token de Autenticidad (Legajo + últimos 4 dígitos DNI)
-TOKEN="5225-6789"   # reemplazá 6789 por tus últimos 4 dígitos reales
-echo "Token de Autenticidad: $TOKEN"
+# 3. Token de Autenticidad
+LEGAJO="5225"
+DNI4="1302"   # últimos 4 dígitos de tu DNI
+TOKEN="${LEGAJO}-${DNI4}"
+echo -e "\nToken de Autenticidad: $TOKEN"
 
-# Guardar en logs
+# 4. Guardar en archivo de logs (carpeta al mismo nivel que codigo)
 mkdir -p ../logs
 {
   echo "Versión de Bash:"
   bash --version | head -n 1
-  echo "PATH: $PATH"
-  echo "Token: $TOKEN"
-} > ../logs/entorno_5225.txt
-
-
-
+  echo -e "\nContenido de PATH:"
+  echo $PATH
+  echo -e "\nToken de Autenticidad: $TOKEN"
+} > ../logs/entorno_${LEGAJO}.txt
 
