@@ -1,10 +1,10 @@
 #Centro Regional Zona Atlántica
-Tecnicatura Superior en Administración de Sistemas y Software Libre
+##Tecnicatura Superior en Administración de Sistemas y Software Libre
 # Trabajo práctico 1: Revisión de conceptos y scripts básicos
-**Materia** Automatización y Scripting
-**Profesores** Ramiro Poggi, Fabian Imberti
-**Alumno:** Gisella Henriquez  
-**Legajo:** 5225  
+- **Materia** Automatización y Scripting
+- **Profesores** Ramiro Poggi, Fabian Imberti
+- **Alumno:** Gisella Henriquez  
+- **Legajo:** 5225  
 
 ##  Estructura del proyecto
 - `codigo/` → scripts en Bash
